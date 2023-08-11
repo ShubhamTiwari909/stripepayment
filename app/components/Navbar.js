@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Navbar = () => {
     return (
-        <div className="navbar text-neutral-content bg-slate-900 flex flex-col md:flex-row">
+        <div data-theme="dark" className="navbar text-neutral-content bg-slate-900 flex flex-col md:flex-row">
             <div className="flex-1">
                 <a className="btn btn-ghost normal-case text-xl">StripePayment</a>
             </div>

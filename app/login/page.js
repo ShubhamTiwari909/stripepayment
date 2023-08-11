@@ -6,8 +6,8 @@ import Signup from '../components/authentication/Signup';
 const LoginPage = () => {
 
   return (
-    <div className='py-10'>
-      <Tabs color="indigo" defaultValue="login">
+    <div data-theme="synthwave" className='py-10'>
+      <Tabs color="indigo" defaultValue="signup">
         <Tabs.List className='flex justify-center'>
           <Tabs.Tab value="login">Login</Tabs.Tab>
           <Tabs.Tab value="signup">Signup</Tabs.Tab>

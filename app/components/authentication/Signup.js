@@ -25,7 +25,7 @@ const Signup = () => {
   });
 
   return (
-    <div className="relative flex flex-col justify-center py-4">
+    <div data-theme="synthwave" className="relative flex flex-col justify-center py-4">
       <p className={`text-center text-semibold text-2xl text-green-600 mb-3 ${message}`}>Signup completed, you can go to login tab now</p>
       <div className="w-80 lg:w-full p-6 m-auto bg-white rounded-md shadow-md ring-2 ring-gray-800/50 lg:max-w-xl">
         <h1 className="text-3xl font-semibold text-center text-gray-700">Signup</h1>

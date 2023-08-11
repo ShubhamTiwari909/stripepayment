@@ -2,7 +2,7 @@ import React from 'react'
 
 const Dashboard = () => {
     return (
-        <div>
+        <div data-theme="synthwave">
             <section className="py-12 bg-gray-50 sm:pt-16">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="text-center">

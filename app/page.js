@@ -16,7 +16,7 @@ export default function Home() {
   }, [])
   
   return (
-    <main className='min-h-screen'>
+    <main data-theme="synthwave" className='min-h-screen'>
       <Dashboard />
     </main>
   )

@@ -5,7 +5,7 @@ import useStore from '../store'
 const Dashboard = () => {
     const setValue = useStore(state => state.setValue)
     return (
-        <div className="min-h-screen  bg-gray-200  flex flex-wrap items-center  justify-center  ">
+        <div data-theme="synthwave" className="min-h-screen  bg-gray-200  flex flex-wrap items-center  justify-center  ">
 
             <div className="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center  container   ">
                 <div className="py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-white z-30">

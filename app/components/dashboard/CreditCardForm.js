@@ -6,7 +6,7 @@ const CreditCardForm = () => {
     const value = useStore(state => state.value)
 
     return (
-        <div>
+        <div data-theme="synthwave">
             <h1 className='text-center text-2xl font-bold my-2'>Plan - ${value}</h1>
             <div className="max-w-sm mx-auto my-10 bg-white rounded-md shadow-md overflow-hidden">
                 <div className="px-6 py-4 bg-gray-900 text-white">
